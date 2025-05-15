@@ -1,0 +1,157 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #8accd5;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+.post {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  border-left: 4px solid #179e2d;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.post h6 {
+  color: #95a5a6;
+  font-size: 0.75rem;
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.post h2 {
+  color: #2c3e50;
+  margin: 0 0 12px 0;
+  font-size: 1.75rem;
+  line-height: 1.3;
+}
+
+.post h4 {
+  color: #179e2d;
+  margin: 0 0 16px 0;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.post h4::before {
+  content: "✍️";
+  font-size: 0.9em;
+}
+
+.post p {
+  color: #34495e;
+  line-height: 1.7;
+  margin: 0 0 20px 0;
+  font-size: 1.05rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .post {
+    padding: 18px;
+    margin-bottom: 24px;
+  }
+  .post h2 {
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #8accd5;
+  color: #fff;
+  bottom: 0;
+  width: 100%;
+}
+.login {
+  padding: 10px;
+  background-color: #1cd83b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 90%;
+  width: 84px;
+  top: 20px;
+}
+.logout {
+  padding: 10px;
+  background-color: #d91616;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  left: 82%;
+  top: 20px;
+}
+.edit {
+  background-color: #179e2d;
+  border: 1px solid black;
+  padding: 7px;
+  width: 75px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.delete {
+  background-color: #e65a5a;
+  border: 1px solid black;
+  padding: 7px;
+  width: 75px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
