@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1
--- Généré le : mar. 13 mai 2025 à 16:12
+-- Généré le : jeu. 15 mai 2025 à 13:15
 -- Version du serveur : 10.4.32-MariaDB
 -- Version de PHP : 8.2.12
 
@@ -39,9 +39,9 @@ CREATE TABLE `simple-blog` (
 --
 
 INSERT INTO `simple-blog` (`id`, `title`, `author`, `content`) VALUES
-(5, '🌍 On Life', 'BY Sholom Aleichem', '&quot;Life is a dream for the wise, a game for the fool, a comedy for the rich, a tragedy for the poor.&quot;'),
-(6, '💼  On Work', 'BY  Derek Jeter', '\"There may be people who have more talent than you, but there’s no excuse for anyone to work harder than you do.\"'),
-(7, '🌞 On Happiness', ' BY Mahatma Gandhi', '\"Happiness is not doing what you like. It’s liking what you do.\"');
+(8, 'Tips for Better Sleep Quality', 'Michael Lee', 'Create a relaxing bedtime routine to signal your body it&#039;s time to rest. Keep your bedroom cool and dark for optimal comfort. Avoid caffeine and heavy meals late in the day. Limit screen time before sleeping to reduce blue light exposure. Practice deep breathing or meditation to calm your mind. Stick to a consistent sleep schedule, even on weekends. Make your bed comfortable with good pillows and mattress.'),
+(9, 'How to Build Healthy Habits', 'Sarah Johnson', 'Wake up at the same time every day to set a consistent rhythm. Drink a glass of water first thing to hydrate your body. Spend a few minutes journaling to clear your mind and set intentions. Take short walks during breaks to refresh your focus. Avoid screens at least an hour before bedtime for better sleep. Celebrate small wins to stay motivated. Practice gratitude daily to improve your mindset.\r\n'),
+(10, 'Effective Ways to Manage Stress', 'Emily Roberts', 'Take deep breaths whenever you feel overwhelmed to calm your nervous system. Break big problems into smaller, manageable steps. Stay physically active, as exercise releases tension and boosts mood. Connect with friends or family to share your feelings. Prioritize sleep to help your body recover. Limit caffeine and sugar intake, which can increase anxiety. Practice mindfulness to stay present and reduce worry.\r\n\r\n');
 
 --
 -- Index pour les tables déchargées
@@ -61,7 +61,7 @@ ALTER TABLE `simple-blog`
 -- AUTO_INCREMENT pour la table `simple-blog`
 --
 ALTER TABLE `simple-blog`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
